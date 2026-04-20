@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Menu, X, ArrowUpRight } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
 import { NAV, SITE } from "@/constants/site";
-
+import logo from "@/assets/logo.jpeg";
 export function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
@@ -29,14 +29,19 @@ export function Navbar() {
       }`}
     >
       <div className="container mx-auto flex h-16 max-w-7xl items-center justify-between px-6 md:h-20">
-        <Link to="/" className="group flex items-center gap-2">
-          <span className="grid h-9 w-9 place-items-center rounded-xl bg-gradient-primary font-display text-base font-bold text-primary-foreground shadow-glow">
-            S
-          </span>
-          <span className="font-display text-lg font-semibold tracking-tight">
-            {SITE.name}
-          </span>
-        </Link>
+       <Link to="/" className="group flex items-center gap-3">
+  <span className="flex h-16 w-16 items-center justify-center overflow-hidden transition-all duration-300 group-hover:scale-105">
+    <img
+      src={logo}
+      alt="SharkTech Solutions Logo"
+      className="h-full w-full object-contain"
+    />
+  </span>
+
+  <span className="font-display text-lg font-semibold tracking-tight text-white transition-colors duration-300 group-hover:text-primary">
+    {SITE.name}
+  </span>
+</Link>
 
         <nav className="hidden items-center gap-1 md:flex">
           {NAV.map((item) => {

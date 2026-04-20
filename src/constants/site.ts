@@ -10,8 +10,8 @@ export const SITE = {
   tagline: "Trusted by 50+ Companies",
   url: "https://sharktechsolutions.in",
   email: "contact@sharktechsolutions.in",
-  phone: "+91 98765 43210",
-  whatsapp: "919876543210",
+  phone: "+91 89319 18656",
+  whatsapp: "918931918656",
   address: "Noida, Uttar Pradesh 201301, India",
   hours: "Monday – Friday · 9:00 AM – 6:00 PM",
 };
@@ -25,21 +25,69 @@ export const NAV = [
 ] as const;
 
 export const STATS = [
-  { value: 200, suffix: "+", label: "Projects Delivered" },
-  { value: 50, suffix: "+", label: "Happy Clients" },
+  { value: 20, suffix: "+", label: "Projects Delivered" },
+  { value: 15, suffix: "+", label: "Happy Clients" },
   { value: 5, suffix: "+", label: "Years Experience" },
   { value: 99, suffix: "%", label: "Success Rate" },
 ];
 
 export const SERVICES = [
-  { icon: "Globe", title: "Web Development", desc: "Full-stack web applications using React, Node.js, Python and modern frameworks for scalable solutions.", tags: ["React", "Node.js", "Python", "Next.js"], price: "From $5,000" },
-  { icon: "Smartphone", title: "Mobile Development", desc: "Native iOS / Android apps and cross-platform solutions using React Native and Flutter.", tags: ["React Native", "Flutter", "iOS", "Android"], price: "From $8,000" },
-  { icon: "Cloud", title: "Cloud Solutions", desc: "AWS, Azure and GCP deployment with DevOps, CI/CD pipelines and infrastructure automation.", tags: ["AWS", "Docker", "Kubernetes", "CI/CD"], price: "From $3,000" },
-  { icon: "Server", title: "Backend & APIs", desc: "Robust backend systems, RESTful APIs, GraphQL and database design for enterprise applications.", tags: ["Node.js", "Python", "PostgreSQL", "MongoDB"], price: "From $4,000" },
-  { icon: "Palette", title: "UI/UX Design", desc: "User-centered design with modern interfaces, prototyping and complete design systems.", tags: ["Figma", "Adobe XD", "Sketch", "Prototyping"], price: "From $2,000" },
-  { icon: "Layers", title: "Custom Software", desc: "Tailored enterprise solutions, CRM systems and business process automation.", tags: ["Custom Solutions", "Integration", "Automation", "CRM"], price: "Custom Quote" },
-  { icon: "Search", title: "SEO Optimization", desc: "Technical and on-page SEO that drives organic traffic and measurable rankings.", tags: ["Technical SEO", "On-page", "Analytics", "Audits"], price: "From $1,500" },
-  { icon: "LifeBuoy", title: "Maintenance & Support", desc: "24/7 monitoring, rapid iteration cycles and reliable ongoing care for your systems.", tags: ["24/7 Support", "Monitoring", "Updates", "SLA"], price: "From $500/mo" },
+  {
+    icon: "Globe",
+    title: "Web Development",
+    desc: "Full-stack web applications using React, Node.js, Python and modern frameworks for scalable business solutions.",
+    tags: ["React", "Node.js", "Python", "Next.js"],
+    price: "From ₹25,000"
+  },
+  {
+    icon: "Smartphone",
+    title: "Mobile Development",
+    desc: "Native iOS / Android apps and cross-platform solutions using React Native and Flutter.",
+    tags: ["React Native", "Flutter", "iOS", "Android"],
+    price: "From ₹60,000"
+  },
+  {
+    icon: "Cloud",
+    title: "Cloud Solutions",
+    desc: "AWS, Azure and GCP deployment with DevOps, CI/CD pipelines and infrastructure automation.",
+    tags: ["AWS", "Docker", "Kubernetes", "CI/CD"],
+    price: "From ₹20,000"
+  },
+  {
+    icon: "Server",
+    title: "Backend & APIs",
+    desc: "Robust backend systems, RESTful APIs, GraphQL and database design for scalable applications.",
+    tags: ["Node.js", "Python", "PostgreSQL", "MongoDB"],
+    price: "From ₹30,000"
+  },
+  {
+    icon: "Palette",
+    title: "UI/UX Design",
+    desc: "User-centered design with modern interfaces, prototyping and complete design systems.",
+    tags: ["Figma", "Adobe XD", "Sketch", "Prototyping"],
+    price: "From ₹15,000"
+  },
+  {
+    icon: "Layers",
+    title: "Custom Software",
+    desc: "Tailored enterprise solutions, CRM systems and business process automation.",
+    tags: ["Custom Solutions", "Integration", "Automation", "CRM"],
+    price: "Custom Quote"
+  },
+  {
+    icon: "Search",
+    title: "SEO Optimization",
+    desc: "Technical and on-page SEO that drives organic traffic and measurable rankings.",
+    tags: ["Technical SEO", "On-page", "Analytics", "Audits"],
+    price: "From ₹12,000"
+  },
+  {
+    icon: "LifeBuoy",
+    title: "Maintenance & Support",
+    desc: "24/7 monitoring, rapid iteration cycles and reliable ongoing care for your systems.",
+    tags: ["24/7 Support", "Monitoring", "Updates", "SLA"],
+    price: "From ₹5,000/mo"
+  }
 ];
 
 export const INDUSTRIES = [
@@ -98,9 +146,24 @@ export const PROCESS = [
 ];
 
 export const TESTIMONIALS = [
-  { quote: "SharkTechSolutions delivered an exceptional e-commerce platform that exceeded our expectations. Their technical expertise and attention to detail is outstanding.", name: "Sarah Johnson", role: "CTO, TechCorp" },
-  { quote: "The team at SharkTechSolutions transformed our idea into a scalable SaaS platform. Their agile approach and communication throughout the project was excellent.", name: "Michael Chen", role: "Founder, StartupXYZ" },
-  { quote: "Working with SharkTechSolutions was a game-changer for our business. They delivered a robust mobile app that our users love.", name: "Emily Rodriguez", role: "Product Manager, InnovateCo" },
+  {
+    quote:
+      "SharkTech Solutions delivered a premium website for our business with modern design and excellent performance. Their professionalism and support were outstanding.",
+    name: "Shubham Gupta",
+    role: "Founder, New Gen Solutions",
+  },
+  {
+    quote:
+      "We wanted a beautiful and conversion-focused online store for our saree brand, and SharkTech Solutions exceeded expectations with a clean and elegant result.",
+    name: "Owner",
+    role: "Zaiva Sarees",
+  },
+  {
+    quote:
+      "Their team understood our business needs perfectly and created a professional digital presence that helped build trust with our customers.",
+    name: "Owner",
+    role: "Rashi Handlooms",
+  },
 ];
 
 export const FAQS = [
@@ -114,7 +177,7 @@ export const FAQS = [
 export const TRUST_BADGES = ["Free Consultation", "24/7 Support", "Money Back Guarantee"];
 export const COMPANY_HIGHLIGHTS = [
   "5+ Years of Software Development Excellence",
-  "200+ Successful Projects Delivered",
+  "20+ Successful Projects Delivered",
   "Agile Development Methodology",
   "24/7 Technical Support & Maintenance",
   "ISO 27001 Security Standards",

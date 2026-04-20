@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { Linkedin, Instagram, Facebook, MessageCircle, Mail, Phone } from "lucide-react";
 import { NAV, SITE } from "@/constants/site";
+import logo from "@/assets/logo.jpeg";
 
 export function Footer() {
   return (
@@ -8,12 +9,19 @@ export function Footer() {
       <div className="container mx-auto max-w-7xl px-6 py-20">
         <div className="grid gap-12 md:grid-cols-12">
           <div className="md:col-span-5">
-            <Link to="/" className="flex items-center gap-2">
-              <span className="grid h-9 w-9 place-items-center rounded-xl bg-gradient-primary font-display text-base font-bold text-primary-foreground shadow-glow">
-                S
-              </span>
-              <span className="font-display text-lg font-semibold">{SITE.name}</span>
-            </Link>
+          <Link to="/" className="group flex items-center gap-3">
+  <span className="flex h-16 w-16 items-center justify-center overflow-hidden transition-all duration-300 group-hover:scale-105">
+    <img
+      src={logo}
+      alt="SharkTech Solutions Logo"
+      className="h-full w-full object-contain"
+    />
+  </span>
+
+  <span className="font-display text-lg font-semibold tracking-tight text-white transition-colors duration-300 group-hover:text-primary">
+    {SITE.name}
+  </span>
+</Link>
             <p className="mt-5 max-w-md text-muted-foreground">
               Building premium digital solutions for ambitious businesses — websites,
               software, mobile apps and AI-powered experiences that scale.
