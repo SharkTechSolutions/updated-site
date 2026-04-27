@@ -30,13 +30,13 @@ export function Navbar() {
     >
       <div className="container mx-auto flex h-16 max-w-7xl items-center justify-between px-6 md:h-20">
        <Link to="/" className="group flex items-center gap-3">
-  <span className="flex h-16 w-16 items-center justify-center overflow-hidden transition-all duration-300 group-hover:scale-105">
-    <img
-      src={logo}
-      alt="SharkTech Solutions Logo"
-      className="h-full w-full object-contain"
-    />
-  </span>
+<span className="flex h-16 w-16 items-center justify-center overflow-hidden rounded-full border border-white/15 bg-white/5 shadow-lg backdrop-blur-sm">
+  <img
+    src={logo}
+    alt="SharkTech Solutions Logo"
+    className="h-full w-full object-cover rounded-full"
+  />
+</span>
 
   <span className="font-display text-lg font-semibold tracking-tight text-white transition-colors duration-300 group-hover:text-primary">
     {SITE.name}
