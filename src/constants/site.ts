@@ -122,7 +122,7 @@ export const PROJECTS = [
   { image: project1, name: "Northwind Corporate", category: "Corporate Website", desc: "Premium brand site for a B2B consultancy.", tech: ["Next.js", "Tailwind", "Sanity"] },
   { image: project2, name: "Reclaft Store", category: "E-commerce Store", desc: "Conversion-focused fashion storefront with custom checkout.", tech: ["Shopify", "React", "Liquid"] },
   { image: project3, name: "Polychart SaaS", category: "SaaS Dashboard", desc: "Real-time analytics platform for product teams.", tech: ["React", "Node", "PostgreSQL"] },
-  { image: project4, name: "Startuf Launch", category: "Startup Website", desc: "High-impact launch site with product waitlist.", tech: ["Vite", "Framer", "TypeScript"] },
+  // { image: project4, name: "Startuf Launch", category: "Startup Website", desc: "High-impact launch site with product waitlist.", tech: ["Vite", "Framer", "TypeScript"] },
   { image: project5, name: "Pulse Fitness App", category: "Mobile UI", desc: "Cross-platform fitness companion with live tracking.", tech: ["React Native", "Expo", "Firebase"] },
   { image: project6, name: "Stoke Eatery", category: "Local Business Website", desc: "Restaurant site with online reservations and menu.", tech: ["Astro", "Tailwind", "Stripe"] },
 ];
@@ -162,7 +162,7 @@ export const TESTIMONIALS = [
     quote:
       "Their team understood our business needs perfectly and created a professional digital presence that helped build trust with our customers.",
     name: "Owner",
-    role: "Rashi Handlooms",
+    role: "Vishnoi Handlooms",
   },
 ];
 

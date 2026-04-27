@@ -57,8 +57,8 @@ export function Footer() {
             </h4>
             <div className="mt-5 flex gap-3">
               {[
-                { Icon: Linkedin, href: "https://linkedin.com" },
-                { Icon: Instagram, href: "https://instagram.com" },
+                { Icon: Linkedin, href: "https://www.linkedin.com/company/sharktech-solutions/" },
+                { Icon: Instagram, href: "https://www.instagram.com/sharktech.solutions/" },
                 { Icon: Facebook, href: "https://facebook.com" },
                 { Icon: MessageCircle, href: `https://wa.me/${SITE.whatsapp}` },
               ].map(({ Icon, href }, i) => (
